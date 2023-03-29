@@ -8,5 +8,11 @@ namespace Jewels
 {
     internal class Owner
     {
+        private Jewels returnContents;
+        public void ReceiveContents(Jewels saveContents)
+        {
+            returnContents = saveContents;
+            Console.WriteLine("Dziękuję za zwrócenie klejnotów! " + saveContents.Sparkle());
+        }
     }
 }
