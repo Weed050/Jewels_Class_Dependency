@@ -6,3 +6,5 @@ using Jewels;
     JewelThief jewelThief = new JewelThief();    
     jewelThief.OpenSafe(safe,owner);
     Console.ReadKey();
+    MySubClass subClass = new MySubClass("jdfaskjdfsj", 123);
+    Console.ReadKey();
